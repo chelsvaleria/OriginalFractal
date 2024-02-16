@@ -3,6 +3,7 @@ public void setup(){
  ellipseMode(CENTER);
 }
 public void draw(){
+background(255);
  myFractal(400,300,500,300);
 }
 public void myFractal(int x, int y, int w, int h){

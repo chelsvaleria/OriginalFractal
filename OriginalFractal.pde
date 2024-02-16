@@ -2,7 +2,6 @@ public void setup(){
  size(800,600);
 }
 public void draw(){
- background(255,255,255); 
  myFractal(400,300,800);
 }
 public void myFractal(int x, int y, int size){

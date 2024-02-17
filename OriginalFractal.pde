@@ -12,7 +12,9 @@ public void myFractal(int x, int y, int w, int h){
  strokeWeight(2);
   ellipse(x,y,w,h);
   if(w > 4 && h > 4){
-    myFractal(x-w/2,y+10,h/2,h/2);
-    myFractal(x+w/2,y+10,h/2,h/2);
+    myFractal(x-h/2,y+50,w/2,h/2);
+    myFractal(x+w/2,y+10,w/2,h/2);
+    myFractal(x-h/2,y-10,w/2,h/2);
+    myFractal(x+w/2,y-50,w/2,h/2);
   }
 }
